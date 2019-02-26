@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>电影详情页</title>
+    <link rel="icon" href="images/index/juicy.ico">
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/details.css" />
+</head>
+<body>
+    <div id="header"></div>
+    <div class="header-placeholder"></div>
+    <div class="container">
+        <div class="content">
+            <div class="main">
+                <p class="film_title">大龄男孩追爱记《不能先说我爱你》</p>
+                <!-- 视频播放 -->
+                <video src="video/SnowBoarding_shutterstockRF_1178125_1080_HD_ZH-CN.mp4" width="820px" height="auto" controls></video>
+               <!-- 短片文本内容 -->
+                <div class="film_text">
+                    短片介绍：<br/>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这个短片是雷朋眼镜的赞助的微电影，尽管产品出镜的次数寥寥无几。本片导演是亚历克斯·卡普夫斯基，他曾参演2013年美国音乐题材剧情片《醉乡民谣》，除了演员和导演，他还身兼剧作家、制作人等多重身份。本片由美国年轻演员Mamoudou Athie、著名乡村音乐人Natalie Prass担任主演。
+                    大龄男孩杰罗姆正值谈情说爱的年纪，只是作为一个初入情场的新手，他和所有涉足爱河的人一样，遇到爱情的第一道门槛：喜欢一个姑娘到底要不要表白？能不能表白？要怎么表白？杰罗姆胸中千言万语汇成一句话，一拍脑门脱口而出：我爱你！对自己心爱的姑娘表白了，结果可想而知，当场就被发卡了啊。<br/>
+                    <br/>
+                    在多次表白被拒之后杰罗姆自然是痛心疾首，在朋友和心理治疗师的帮助下从此开始了漫长的装逼之路：学着掩藏好自己的好感，在姑娘面前一本正经，心里念着大慈大悲咒，面不改色，害怕被姑娘看破自己的内心，坚决不说出那句“爱的终结语”。但是，心灵饱受创伤的杰罗姆患上了一种心理疾病，在喜欢的人面前他已经说不出“我爱你”三个字。最后，杰罗姆幡然醒悟，去他的什么恋爱忠告，不要压抑内心爱的火种，大胆说爱，终于赢得了美人倾心。<br/>
+                    <br/>
+                    男人来自火星，女人来自金星，根本就不是同一物种好吗？女生要的是浪漫是氛围是自然，除非是她已经喜欢上你并且程度很深了，不然谁会想听那么直来直去的表白啊！不过男生的意图都很明显，急于求成，从来没有考虑过女生的感受，“你跟不跟我，不跟我拉倒”，着急表白之后很可能连朋友都做不成了！<br/>
+                    <br/>
+                    当然，作为一头莽撞的雄性动物，没有血的教训是不会明白的。有时候，即使是感情已经到位，也真的没有必要说出口，在一起就在一起，这么简单的事情干嘛非要搞什么表白呢？
+                </div>
+                <!-- 分享链接 -->
+                <div class="share">
+                    <span>分享：</span><p class="rt"><a class="a1" href="#"></a><a class="a2" href="#"></a><a class="a3" href="#"></a><a class="a4" href="#"></a></p>
+                </div>
+                <div class="message_board">
+                    <p class="film_title">影片评论</p>
+                    <div class="message_input">
+                        <ul class="lf">
+                            <li>
+                                <img  class="user_header" src="images/user_head/user_head.png" alt=""/>
+                            </li>
+                            <li class="user_name"></li>
+                        </ul>
+                        <textarea name="message" id="message" cols="105" rows="6"></textarea>
+                        <button id="message_submit">发表评论</button>
+                        <span class="message_alert">请输入评论内容</span>
+                    </div>
+                    <ul class="message_list">
+                        <!--<li>-->
+                            <!--<ul class="lf">-->
+                                <!--<li class="user_header"></li>-->
+                                <!--<li class="user_name"></li>-->
+                            <!--</ul>-->
+                            <!--<div class="message_content">-->
+                                <!--<p>想知道开始的时候那些绳子的摩擦声、敲击木头的声音是前期录的还是后期做的？</p>-->
+                                <!--<p class="message_time">2016-08-25</p>-->
+                                <!--<i class="dian_zan"></i>-->
+                                <!--<i class="dian_zan_down"></i>-->
+                            <!--</div>-->
+                        <!--</li>-->
+                    </ul>
+                </div>
+            </div>
+            <div class="aside"></div>
+        </div>
+    </div>
+    <div id="footer"></div>
+    <!-- 登录框 -->
+    <div class="modal">
+        <div class="login">
+            <div class="logincont">
+                <h1>登&nbsp;&nbsp;录</h1>
+                <form id="login-form">
+
+                    <div>
+                        <p class="leftp">用户名</p>
+                        <p class="logerror">输入的账号或者密码有误！</p>
+                        <p class="logr tsa">还没有账号？<a href="#" onclick="locationToHref('register_new.html'/*tpa=http://tmooc.cn/web/user/register_new.html*/)">15秒注册</a></p>
+                        <input id="l_login_name" type="text" placeholder="请输入用户名" name="user_name" value="xxj">
+                    </div>
+                    <div>
+                        <p class="leftp">登录密码</p>
+                        <p class="passerror">请输入密码！</p>
+                        <p class="logr"><a class="forgetpassword">忘记密码？</a></p>
+                        <input id="l_password" class="logpwd"  name="user_pwd" type="password" placeholder="请输入登录密码（6-16位数字、字母或字符的组合）" value="123456">
+                    </div>
+                    <!--<li class="logyzm" style="display: none;">
+                        <p>验证码</p>
+                        <input id="l_validateCode" class="lyzmbg" type="text" >
+                        <img id="validateCodeImg" width="109" height="40" onclick="refreshImg()"/>
+                        <p class="yzmch">看不清楚？<a href="#" class="yzm_change" onclick="refreshImg()">换一张</a></p>
+                        <p class="error"><span class="suc"></span></p>
+                    </li>-->
+                    <!--<li class="cook">
+                        <input id="l_auto_login" checked type="checkbox" value=""/>
+                        <p>记住用户名</p>
+                    </li>-->
+                    <div class="zhbut">
+                        <!--<input id="l_login_in" type="button" value="登录" />-->
+                        <input type="button" id="l_login_in" value="登录">
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/film_01.js"></script>
+</body>
+</html>

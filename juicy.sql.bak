@@ -1,0 +1,20 @@
+SET NAMES utf8;
+DROP DATABASE IF EXISTS juicy;
+CREATE DATABASE juicy CHARSET=UTF8;
+USE juicy;
+CREATE TABLE IF NOT EXISTS `juicy_users` (
+  `user_id` int(11) PRIMARY KEY  AUTO_INCREMENT,
+  `user_name` varchar(100),
+  `user_pwd` varchar(100),
+  `user_email` varchar(100),
+  `user_head`  varchar(100)
+);
+INSERT INTO `juicy_users` VALUES(NULL, 'xxj', '123456','923333121@qq.com','user_head1');
+CREATE TABLE IF NOT EXISTS `juicy_messages`(
+  `message_id` int(11) PRIMARY KEY  AUTO_INCREMENT,
+  `film_name` varchar(100),
+  `user_name` varchar(100),
+  `user_head` varchar(100),
+  `message_time` varchar(100),
+  `message`	varchar(1000)
+);

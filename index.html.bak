@@ -1,0 +1,406 @@
+<!doctype html>
+<html>
+  <head>
+	  <title>JUICY FILM微电影分享平台</title>
+	  <meta charset="utf-8">
+	  <link rel="icon" href="images/index/juicy.ico">
+	  <link rel="stylesheet" href="css/index.css" />
+	  <style>
+	  </style>
+  </head>
+  <body>
+	<!-- 顶部导航栏  -->
+	<div id="header">
+		<div id="top_box">
+			<!-- logo -->
+			<a href="#" class="logo">
+				<img src="images/index/logo.jpg" alt="logo.jpg">
+			</a>
+			<!-- 当前城市 --> 
+			<div  id="city_container" class="lf">
+				<div class="city_selected lf">
+					<div class="city_name lf">南京</div>
+					<span class="caret lf"></span>
+				</div>
+				<div class="city-list">
+					
+				</div>
+			</div>
+			<!-- 页面导航 -->
+			<ul id="nav" class="lf">
+				<li class="lf active"><a href="index.html" target="_self">首页</a></li>
+				<li class="lf"><a href="film_01.html">电影</a></li>
+				<li class="lf"><a href="film_01.html">分类</a></li>
+				<li class="lf"><a href="film_01.html">活动</a></li>
+			</ul>
+			<!-- 用户登录注册 -->
+			<div id="user_info" class="rt">
+				<img class="user_head" src="images/user_head/user_head.png" alt="user_head.png">
+				<div id="user_in">
+					<a href="film_01.html" id="my_login">登录</a> |
+					<a href="register.html" target="_blank" id="my_register">注册</a>
+				</div>
+			</div>
+			<!-- 搜索框 -->
+			<form target="_self" class="rt">
+				<input name="kw" class="search" type="search" maxlength="32" placeholder="输入电影名字">
+				<input class="submit" type="submit" value="">
+			</form>
+		</div>
+	</div>
+	<div class="header-placeholder"></div>
+	<!-- 广告轮播图 -->
+	<div id="slider_box">
+		<div id="slider">
+			<ul id="imgs">
+			</ul>
+			<ul id="idxs">
+			</ul>
+		</div>
+	</div>
+	<!-- 主体部分 -->
+	<div class="container">
+			<div class="content">
+				<div class="main">
+					<ul id="main_nav">
+						<li class="see_random  hover">随便看看</li>
+						<li class="new_rec">最新推荐</li>
+						<li class="hot">热门排行</li>
+					</ul>
+					<ul id="main_content">
+						<li class="panel">
+							<img src="images/index/film_03.jpg" alt=""/>
+							<div class="film_info">
+								<p class="film_header">
+									<a class="film_title" href="film_01.html" target="_blank">送给奥运失利选手的诗篇《信仰荣光》</a>
+									<span class="film_grade">7.6</span>
+								</p>
+								<div class="film_intro">
+									血与泪的奥运之路，光荣永存！
+								</div>
+								<div class="film_bottom">
+									<span class="film_kind">广告</span>&nbsp;&nbsp;&nbsp;&nbsp;
+									<span class="film_time">2019-01-14</span>
+								</div>
+							</div>
+						</li>
+						<li class="panel">
+							<img src="images/index/film_02.jpg" alt=""/>
+							<div class="film_info">
+								<p class="film_header">
+									<a class="film_title" href="film_01.html">神结尾恶趣味动画《月从天降》</a>
+									<span class="film_grade">7.0</span>
+								</p>
+								<div class="film_intro">
+									说好的温情路线呢！一眼不合你就乱来
+								</div>
+								<div class="film_bottom">
+									<span class="film_kind">动画</span>&nbsp;&nbsp;&nbsp;&nbsp;
+									<span class="film_time">2019-01-19</span>
+								</div>
+							</div>
+						</li>
+						<li class="panel">
+							<img src="images/index/film_04.jpg" alt=""/>
+							<div class="film_info">
+								<p class="film_header">
+									<a class="film_title" href="film_01.html">补考前暴虐喜剧《选择题》</a>
+									<span class="film_grade">7.8</span>
+								</p>
+								<div class="film_intro">
+									为了不挂科你们真是拼了！
+								</div>
+								<div class="film_bottom">
+									<span class="film_kind">剧情</span>&nbsp;&nbsp;&nbsp;&nbsp;
+									<span class="film_time">2019-01-20</span>
+								</div>
+							</div>
+						</li>
+						<li class="panel">
+							<img src="images/index/film_06.jpg" alt=""/>
+							<div class="film_info">
+								<p class="film_header">
+									<a class="film_title" href="film_01.html">鬼节惊悚短片四重奏：你想看看我的脸吗</a>
+									<span class="film_grade">7.3</span>
+								</p>
+								<div class="film_intro">
+									有胆你就来！
+								</div>
+								<div class="film_bottom">
+									<span class="film_kind">剧情</span>&nbsp;&nbsp;&nbsp;&nbsp;
+									<span class="film_time">2019-02-14</span>
+								</div>
+							</div>
+						</li>
+						<li class="panel">
+							<img src="images/index/film_01.jpg" alt=""/>
+							<div class="film_info">
+								<p class="film_header">
+									<a class="film_title" href="film_01.html">大龄男孩追爱记《不能先说我爱你》</a>
+									<span class="film_grade">7.9</span>
+								</p>
+								<div class="film_intro">
+									这么简单个事情你们干嘛非要搞什么表白呢？
+								</div>
+								<div class="film_bottom">
+									<span class="film_kind">剧情</span>&nbsp;&nbsp;&nbsp;&nbsp;
+									<span class="film_time">2019-02-02</span>
+								</div>
+							</div>
+						</li>
+						<li class="panel">
+							<img src="images/index/film_09.jpg" alt=""/>
+							<div class="film_info">
+								<p class="film_header">
+									<a class="film_title" href="film_01.html">创意同志杂技 《力与美》</a>
+									<span class="film_grade">7.7</span>
+								</p>
+								<div class="film_intro">
+									所有的爱都应该得到尊重与祝福
+								</div>
+								<div class="film_bottom">
+									<span class="film_kind">爱情</span>&nbsp;&nbsp;&nbsp;&nbsp;
+									<span class="film_time">2019-01-01</span>
+								</div>
+							</div>
+						</li>
+						<li class="panel">
+							<img src="images/index/film_05.jpg" alt=""/>
+							<div class="film_info">
+								<p class="film_header">
+									<a class="film_title" href="film_01.html">感人纪实回忆录《外祖父的空房间》</a>
+									<span class="film_grade">7.1</span>
+								</p>
+								<div class="film_intro">
+									生活究竟应该怎样？
+								</div>
+								<div class="film_bottom">
+									<span class="film_kind">记录</span>&nbsp;&nbsp;&nbsp;&nbsp;
+									<span class="film_time">2019-01-24</span>
+								</div>
+							</div>
+						</li>
+						<li class="panel">
+							<img src="images/index/film_10.jpg" alt=""/>
+							<div class="film_info">
+								<p class="film_header">
+									<a class="film_title" href="film_01.html">罗拉快跑式讽刺喜剧 《星期六》</a>
+									<span class="film_grade">7.4</span>
+								</p>
+								<div class="film_intro">
+									据说有人每天都这样？
+								</div>
+								<div class="film_bottom">
+									<span class="film_kind">剧情</span>&nbsp;&nbsp;&nbsp;&nbsp;
+									<span class="film_time">2019-02-07</span>
+								</div>
+							</div>
+						</li>
+						<li class="panel">
+							<img src="images/index/film_08.jpg" alt=""/>
+							<div class="film_info">
+								<p class="film_header">
+									<a class="film_title" href="film_01.html">世界冲浪热血宣传片 《混沌理论》</a>
+									<span class="film_grade">7.8</span>
+								</p>
+								<div class="film_intro">
+									总有一种难以释怀情结，那是对自由的向往
+								</div>
+								<div class="film_bottom">
+									<span class="film_kind">剧情</span>&nbsp;&nbsp;&nbsp;&nbsp;
+									<span class="film_time">2019-01-09</span>
+								</div>
+							</div>
+						</li>
+						<li class="panel">
+							<img src="images/index/film_14.jpg" alt=""/>
+							<div class="film_info">
+								<p class="film_header">
+									<a class="film_title" href="film_01.html">诗意人生短片 《泛舟克拉尔河上》</a>
+									<span class="film_grade">7.8</span>
+								</p>
+								<div class="film_intro">
+									邀三五好友，泛舟克拉尔河上
+								</div>
+								<div class="film_bottom">
+									<span class="film_kind">旅行</span>&nbsp;&nbsp;&nbsp;&nbsp;
+									<span class="film_time">2019-01-03</span>
+								</div>
+							</div>
+						</li>
+						<li class="panel">
+							<img src="images/index/film_07.jpg" alt=""/>
+							<div class="film_info">
+								<p class="film_header">
+									<a class="film_title" href="film_01.html">各怀鬼胎夫妻借刀杀人 《拼字游戏》</a>
+									<span class="film_grade">8.1</span>
+								</p>
+								<div class="film_intro">
+									夫妻一场，有什么话不能好好说？
+								</div>
+								<div class="film_bottom">
+									<span class="film_kind">剧情</span>&nbsp;&nbsp;&nbsp;&nbsp;
+									<span class="film_time">2019-01-10</span>
+								</div>
+							</div>
+						</li>
+						<li class="panel">
+							<img src="images/index/film_11.jpg" alt=""/>
+							<div class="film_info">
+								<p class="film_header">
+									<a class="film_title" href="film_01.html">美国国家公园一瞥 《园林之地》</a>
+									<span class="film_grade">7.5</span>
+								</p>
+								<div class="film_intro">
+									领略美国国家公园胜景
+								</div>
+								<div class="film_bottom">
+									<span class="film_kind">旅行</span>&nbsp;&nbsp;&nbsp;&nbsp;
+									<span class="film_time">2019-01-06</span>
+								</div>
+							</div>
+						</li>
+						<li class="panel">
+							<img src="images/index/film_12.jpg" alt=""/>
+							<div class="film_info">
+								<p class="film_header">
+									<a class="film_title" href="film_01.html">耐克日本叛逆广告 《不跟随》</a>
+									<span class="film_grade">7.6</span>
+								</p>
+								<div class="film_intro">
+									朗朗书声下的体育宣言
+								</div>
+								<div class="film_bottom">
+									<span class="film_kind">广告</span>&nbsp;&nbsp;&nbsp;&nbsp;
+									<span class="film_time">2019-02-05</span>
+								</div>
+							</div>
+						</li>
+						<li class="panel">
+							<img src="images/index/film_15.jpg" alt=""/>
+							<div class="film_info">
+								<p class="film_header">
+									<a class="film_title" href="film_01.html">拖延症患者终极躺枪之作 《就今天！》</a>
+									<span class="film_grade">8.3</span>
+								</p>
+								<div class="film_intro">
+									明天！我一定会完成所有的计划！
+								</div>
+								<div class="film_bottom">
+									<span class="film_kind">剧情</span>&nbsp;&nbsp;&nbsp;&nbsp;
+									<span class="film_time">2019-02-02</span>
+								</div>
+							</div>
+						</li>
+						<li class="panel">
+							<img src="images/index/film_13.jpg" alt=""/>
+							<div class="film_info">
+								<p class="film_header">
+									<a class="film_title" href="film_01.html">温暖童趣亲情电话 《礼物》</a>
+									<span class="film_grade">7.2</span>
+								</p>
+								<div class="film_intro">
+									用游戏引擎做好莱坞级VR动画电影？
+								</div>
+								<div class="film_bottom">
+									<span class="film_kind">动画</span>&nbsp;&nbsp;&nbsp;&nbsp;
+									<span class="film_time">2019-01-17</span>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="aside">
+					<ul class="aside_content">
+						<li class="wx_code">
+							<p class="aside_header">
+								<span class="aside_header_title">关注我们</span>
+							</p>
+							<p>关注我们的微信公众号，每天一部精彩短片</p>
+							<img src="images/index/wx_code.jpg" alt=""/>
+						</li>
+						<li class="channel">
+							<p class="aside_header">
+								<span class="aside_header_title">热门标签</span>
+							</p>
+							<div class="channel_content">
+								<a href="film_01.html">广告</a>
+								<a href="film_01.html">创意</a>
+								<a href="film_01.html">旅行</a>
+								<a href="film_01.html">爱情</a>
+								<a href="film_01.html">生活</a>
+								<a href="film_01.html">运动</a>
+								<a href="film_01.html">励志</a>
+								<a href="film_01.html">科幻</a>
+							</div>
+						</li>
+						<li class="activity">
+							<p class="aside_header">
+								<span class="aside_header_title">热门活动</span>
+								<!--<span class="add_more"><a href="film_01.html">更多</a></span>-->
+							</p>
+							<a href="film_01.html"><img src="images/index/activity_01.jpg" alt=""/></a>
+							<img src="images/index/activity_02.jpg" alt=""/>
+							<img src="images/index/activity_03.jpg" alt=""/>
+							<img src="images/index/activity_04.jpg" alt=""/>
+							<img src="images/index/activity_05.jpg" alt=""/>
+						</li>
+					</ul>
+				</div>
+			</div>
+	</div>
+	<!-- 底部信息  -->
+	<footer id="bottom">
+		<p><a href="film_01.html">法律条款</a> &nbsp;| &nbsp;<a href="film_01.html">隐私</a> &nbsp;|&nbsp; <a href="film_01.html">安全性</a> &nbsp;|&nbsp; <a href="film_01.html">联系我们</a> &nbsp;|&nbsp; <a href="film_01.html">帮助与反馈</a> </p>
+		<p>Copyright © 2019-2020   juicy film   京ICP备12001467号   京公网安备11010802011460号. 保留一切权利.</p>
+	</footer>
+
+	<!-- 登录框 -->
+	<div class="modal">
+		<div class="login">
+			<div class="logincont">
+				<h1>登&nbsp;&nbsp;录</h1>
+				<form id="login-form">
+
+						<div>
+							<p class="leftp">用户名</p>
+							<p class="logerror">输入的账号或者密码有误！</p>
+							<p class="logr tsa">还没有账号？<a href="register.html">15秒注册</a></p>
+							<input id="l_login_name" type="text" placeholder="请输入用户名" name="user_name" value="xxj">
+						</div>
+						<div>
+							<p class="leftp">登录密码</p>
+							<p class="passerror">请输入密码！</p>
+							<p class="logr"><a class="forgetpassword">忘记密码？</a></p>
+							<input id="l_password" class="logpwd"  name="user_pwd" type="password" placeholder="请输入登录密码（6-16位数字、字母或字符的组合）" value="123456">
+						</div>
+						<!--<li class="logyzm" style="display: none;">
+							<p>验证码</p>
+							<input id="l_validateCode" class="lyzmbg" type="text" >
+							<img id="validateCodeImg" width="109" height="40" onclick="refreshImg()"/>
+							<p class="yzmch">看不清楚？<a href="film_01.html" class="yzm_change" onclick="refreshImg()">换一张</a></p>
+							<p class="error"><span class="suc"></span></p>
+						</li>-->
+						<!--<li class="cook">
+							<input id="l_auto_login" checked type="checkbox" value=""/>
+							<p>记住用户名</p>
+						</li>-->
+						<div class="zhbut">
+							<!--<input id="l_login_in" type="button" value="登录" />-->
+							<input type="button" id="l_login_in" value="登录">
+						</div>
+
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/jquery-1.11.3.js"></script>
+	<script src="js/jquery-ui.js"></script>
+	<script src="js/slider.js"></script>
+	<script src="js/index.js"></script>
+	<script>
+   
+	</script>
+  </body>
+</html>

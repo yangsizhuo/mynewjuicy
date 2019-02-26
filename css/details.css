@@ -1,0 +1,156 @@
+/*主体中的视频标题*/
+.main{
+    padding: 20px 40px;
+    width: 820px;
+}
+.main p.film_title{
+    margin: 10px 0;
+    font-weight: bold;
+    font-size: 22px;
+    color: #3e3e3e;
+}
+video{
+    margin: 10px auto;
+}
+/*视频文字介绍*/
+.film_text{
+    margin: 10px 0;
+    color: black;
+    font-size: 16px;
+    line-height: 30px;
+}
+/*分享*/
+.share{
+    width: 220px;
+    height: 25px;
+    font-size: 14px;
+    float: right;
+    position: relative;
+}
+.share span{
+    position: absolute;
+    top: 4px;
+    left: 0;
+    float: left;
+}
+.share a{
+    margin: 0 10px;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background: url("../images/index/mybg.png") no-repeat 0 -261px;
+}
+.share .a2{
+    background-position: 0 -287px;
+}
+.share .a3{
+    background-position: 0 -313px;
+}
+.share .a4{
+    background-position: 0 -339px;
+}
+/*留言板*/
+.message_board{
+    clear: both;
+    margin-top: 50px;
+    overflow: hidden;
+}
+/*留言板输入框*/
+.message_input{
+   overflow: hidden;
+    position: relative;
+}
+/*留言板用户头像*/
+.user_header{
+    width: 40px;
+    height: 40px;
+}
+/*用户名*/
+.user_name{
+    text-align: center;
+    margin-top: 10px;
+    color: #0980dc;
+}
+/*留言板文本域*/
+#message{
+    float: right;
+    outline: none;
+    resize:none;
+    border-color:#DDDDDD;
+    font-size: 14px;
+}
+/*发表评论按钮*/
+#message_submit{
+    margin-top: 10px;
+    outline: none;
+    float: right;
+    height: 30px;
+    background-color: #3498DB;
+    color: #FFF;
+    padding: 0 10px;
+    border-radius: 2px;
+    border: none;
+}
+/*评论内容不能为空*/
+.message_alert{
+    position: absolute;
+    bottom: 5px;
+    right: 90px;
+    color: red;
+    font-size: 14px;
+    display: none;
+}
+#message_submit:hover{
+    cursor: pointer;
+    background-color:#7DC5E8;
+}
+/*评论列表*/
+.message_list{
+    min-height: 200px;
+    margin-top: 10px;
+    border-top: 1px solid #DDDDDD;
+}
+.message_list>li{
+    overflow: hidden;
+    padding: 10px 0;
+    border-bottom: 1px solid #DDDDDD;
+}
+.message_content{
+    float: right;
+    width: 760px;
+    height: 66px;
+    font-size: 14px;
+    position: relative;
+}
+.message_time{
+    font-size: 12px;
+    color: #999999;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+/*点赞*/
+.dian_zan{
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+    background: url("../images/user_head/dianzan.png") no-repeat;
+}
+.dian_zan:hover,.message_list .active{
+    cursor: pointer;
+    background-position: 0 -22px;
+}
+.dian_zan_down{
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    bottom: 0;
+    right: 40px;
+    background: url("../images/user_head/dianzan.png") no-repeat -22px 0;
+}
+.dian_zan_down:hover,.dian_zan_down.active{
+    cursor: pointer;
+    background-position: -22px -22px;
+}
